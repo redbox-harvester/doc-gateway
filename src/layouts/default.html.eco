@@ -35,7 +35,6 @@
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
-	<link  rel="stylesheet" href="/styles/stickyfooter.css" />
 </head>
 <body>
 	<!-- Menu -->

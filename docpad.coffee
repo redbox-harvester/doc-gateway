@@ -41,6 +41,7 @@ docpadConfig = {
 			styles: [
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
+				"/styles/stickyfooter.css"
 			]
 
 			# Scripts
@@ -143,18 +144,18 @@ docpadConfig = {
 					url: "http://localhost:9778/"
 				client:
 					url: "http://localhost:9779/"
-		snapshot: # The version hosted at GH pages
+		static: # The version hosted at GH pages
 			templateData:
 				site:
-					url: "http://harvester-client-docs-latest.redboxresearchdata.com.au"
+					url: "http://harvester-snapshot.redboxresearchdata.com.au/"
 				client:
-					url: "http://redbox-harvester.github.io/json-harvester-client"
+					url: "http://harvester-client-snapshot.redboxresearchdata.com.au/"
 		release: # The released version hosted at wherever.
 			templateData:
 				site:
-					url: "http://harvester-docs.redboxresearchdata.com.au"
+					url: "http://harvester-release.redboxresearchdata.com.au/"
 				client:
-					url: "http://harvester-client-docs.redboxresearchdata.com.au"
+					url: "http://harvester-client-release.redboxresearchdata.com.au/"
 }
 
 
