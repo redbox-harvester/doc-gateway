@@ -1,0 +1,20 @@
+---
+layout: 'default'
+title: 'Home'
+---
+
+<div class="jumbotron">
+	<h2>Harvester Client</h2>
+	<p>
+		ReDBox Harvester is a simple integration tool to connect two or more systems. 
+		This page provides handy links to key documentation.
+	</p>
+</div>
+
+<div class="row" class="text-center">
+	<div class="col-lg-4">
+		<div class="panel-body text-center">
+			<a href="<%= @client.url %>pages/overview" class="btn btn-primary btn-lg">Harvester Client - Overview</a>
+		</div>
+	</div>
+</div>
