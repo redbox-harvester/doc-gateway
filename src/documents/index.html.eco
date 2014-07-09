@@ -7,22 +7,27 @@ title: 'Home'
 	<h2>Harvester Client</h2>
 	<p>
 		ReDBox Harvester is a simple integration tool to connect two or more systems. It is the preferred integration tool for <a href="http://www.redboxresearchdata.com.au" target="_blank">ReDBox</a>.
-		This page provides handy links to key documentation.
+		This page provides handy links to the <%= @site.version %> version of the documentation.
 	</p>
 </div>
 
 <div class="row" class="text-center">
-	<div class="col-lg-4">
+	<div class="col-lg-3">
 		<div class="panel-body text-center">
 			<a href="<%= @client.url %>" class="btn btn-primary btn-lg rewritable-url">Harvester Client</a>
 		</div>
 	</div>
-	<div class="col-lg-4">
+	<div class="col-lg-3">
 		<div class="panel-body text-center">
-			<a href="<%= @jdbc.url %>" class="btn btn-primary btn-lg rewritable-url">JDBC to RedBox Harvester</a>
+			<a href="<%= @jdbc.url %>" class="btn btn-primary btn-lg rewritable-url">JDBC to RedBox Dataset</a>
 		</div>
 	</div>
-	<div class="col-lg-4">
+	<div class="col-lg-3">
+		<div class="panel-body text-center">
+			<a href="<%= @mintcsv.url %>" class="btn btn-primary btn-lg rewritable-url">CSV to Mint Record</a>
+		</div>
+	</div>
+	<div class="col-lg-3">
 		<div class="panel-body text-center">
 			<a href="<%= @manager.url %>" class="btn btn-primary btn-lg rewritable-url">Deploy via Manager</a>
 		</div>

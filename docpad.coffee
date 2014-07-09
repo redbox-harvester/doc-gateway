@@ -143,6 +143,7 @@ docpadConfig = {
 				site:
 					url: "http://localhost:9778/"
 					project:"doc-gateway"
+					version: "snapshot"
 				client:
 					url: "http://localhost:9779/"
 				utility:
@@ -151,11 +152,14 @@ docpadConfig = {
 					url: "http://localhost:9781/"
 				manager:
 					url: "http://localhost:9782/"
+				mintcsv:
+					url: "http://localhost:9783/"
 		static: # The version hosted at GH pages
 			templateData:
 				site:
 					url: "http://harvester-snapshot.redboxresearchdata.com.au/"
 					project:"doc-gateway"
+					version: "snapshot"
 				client:
 					url: "http://harvester-client-snapshot.redboxresearchdata.com.au/"
 				utility:
@@ -171,6 +175,7 @@ docpadConfig = {
 				site:
 					url: "http://harvester-release.redboxresearchdata.com.au/"
 					project:"doc-gateway"
+					version: "release"
 				client:
 					url: "http://harvester-client-release.redboxresearchdata.com.au/"
 				utility:
