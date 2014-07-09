@@ -142,20 +142,45 @@ docpadConfig = {
 			templateData:
 				site:
 					url: "http://localhost:9778/"
+					project:"doc-gateway"
 				client:
 					url: "http://localhost:9779/"
+				utility:
+					url: "http://localhost:9780/"
+				jdbc:
+					url: "http://localhost:9781/"
+				manager:
+					url: "http://localhost:9782/"
 		static: # The version hosted at GH pages
 			templateData:
 				site:
 					url: "http://harvester-snapshot.redboxresearchdata.com.au/"
+					project:"doc-gateway"
 				client:
 					url: "http://harvester-client-snapshot.redboxresearchdata.com.au/"
+				utility:
+					url: "http://harvester-utilities-snapshot.redboxresearchdata.com.au/"
+				jdbc:
+					url: "http://harvester-jdbc-redbox-snapshot.redboxresearchdata.com.au/"
+				mintcsv:
+					url: "http://harvester-csv-mint-snapshot.redboxresearchdata.com.au/"
+				manager:
+					url: "http://harvester-manager-snapshot.redboxresearchdata.com.au/"
 		release: # The released version hosted at wherever.
 			templateData:
 				site:
 					url: "http://harvester-release.redboxresearchdata.com.au/"
+					project:"doc-gateway"
 				client:
 					url: "http://harvester-client-release.redboxresearchdata.com.au/"
+				utility:
+					url: "http://harvester-utilities-release.redboxresearchdata.com.au/"
+				jdbc:
+					url: "http://harvester-jdbc-redbox-release.redboxresearchdata.com.au/"
+				mintcsv:
+					url: "http://harvester-csv-mint-release.redboxresearchdata.com.au/"
+				manager:
+					url: "http://harvester-manager-release.redboxresearchdata.com.au/"
 }
 
 
